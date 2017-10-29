@@ -6,7 +6,6 @@ function updateObjectWithKeyAndValue (obj, key, val) {
 };
 
 function updateObjectWithKeyAndValue (obj, key, val) {
-  return obj
   obj[key] = val
   return obj
 }
